@@ -1,5 +1,5 @@
 AWSTemplateFormatVersion: 2010-09-09
-Description: 'AWS Service Broker - Amazon S3 (qs-1nt0fs937)'
+Description: 'AWS Service Broker - Amazon S3 (for Mendix apps)'
 Metadata:
   'AWS::ServiceBroker::Specification':
     Version: 1.0
@@ -7,8 +7,9 @@ Metadata:
       - AWS
       - S3
       - Object Storage
+      - Mendix
     Name: mendix-storage
-    DisplayName: Amazon S3
+    DisplayName: Amazon S3 (Mendix)
     LongDescription: Amazon Simple Storage Service (Amazon S3) is storage for the
       Internet. You can use Amazon S3 to store and retrieve any amount of data at
       any time, from anywhere on the web. You can accomplish these tasks using the

@@ -1,5 +1,5 @@
 AWSTemplateFormatVersion: 2010-09-09
-Description: AWS Service Broker - Amazon RDS for PostgreSQL (qs-1ob09h6aj)
+Description: AWS Service Broker - Amazon RDS for PostgreSQL (for Mendix apps)
 Metadata:
   AWS::ServiceBroker::Specification:
     Version: 1.0
@@ -8,8 +8,9 @@ Metadata:
     - RDS
     - PostgreSQL
     - database
+    - Mendix
     Name: mendix-database
-    DisplayName: Amazon RDS for PostgreSQL
+    DisplayName: Amazon RDS for PostgreSQL (Mendix)
     LongDescription: PostgreSQL has become the preferred open source relational database
       for many enterprise developers and start-ups, powering leading geospatial and
       mobile applications. Amazon RDS makes it easy to set up, operate, and scale
